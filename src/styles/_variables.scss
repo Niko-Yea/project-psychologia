@@ -1,0 +1,17 @@
+$primary: #8C1655;
+$secondary: #FFC7E6;
+$tertiary: #336633;
+$body-bg: #FDFEF8;
+
+$custom-colors: (
+        "primary":    $primary,
+        "secondary":  $secondary,
+        "tertiary":   $tertiary,
+        "body-bg":    $body-bg,
+);
+
+$theme-colors: map-merge(
+                $theme-colors,
+                $custom-colors
+);
+$border-radius: 15px;

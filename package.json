@@ -1,0 +1,48 @@
+{
+  "name": "optimus-consulting-group",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Niko-Yea.github.io/optimus-consulting",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niko-Yea/optimus-consulting"
+  },
+  "keywords": [],
+  "author": "Niko Yea <nikoyea14@gmail.com@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.1",
+    "html-loader": "^4.2.0",
+    "html-minimizer-webpack-plugin": "^4.3.0",
+    "html-webpack-plugin": "^5.5.0",
+    "posthtml-include": "^1.7.4",
+    "posthtml-loader": "^2.0.1",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "svg-inline-loader": "^0.8.2",
+    "svg-sprite-loader": "^6.0.11",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.70.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.3.3",
+    "gh-pages": "^4.0.0",
+    "jquery": "^3.6.1"
+  }
+}

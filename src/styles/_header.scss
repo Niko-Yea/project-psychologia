@@ -1,0 +1,16 @@
+#header {
+  background-image: url("../assets/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 22%;
+
+  & .title {
+    margin-top: 2.375rem;
+  }
+
+  & .contact-btn {
+    margin-top: 418px;
+    margin-bottom: 149px;
+    padding: .75rem 2rem;
+  }
+}
