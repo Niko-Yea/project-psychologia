@@ -3,18 +3,21 @@
 @import "bootstrap/scss/variables";
 @import "variables";
 @import 'bootstrap';
+@import "utils/slick";
+@import "utils/slick-theme";
 @import "header";
-@import "about-me";
-@import "what-i-do";
+@import "footer";
 
 #about-me,
-#what-i-do {
+#what-i-do,
+#instagram,
+#project-description {
   padding-top: 5.625rem;
   padding-bottom: 5.625rem;
 
   @include media-breakpoint-up(md) {
-    padding-top: 16rem;
-    padding-bottom: 16rem;
+    padding-top: 11.25rem;
+    padding-bottom: 11.25rem;
   }
 }
 
