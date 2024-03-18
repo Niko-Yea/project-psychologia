@@ -63,6 +63,12 @@ p {
   margin: 0
 }
 
+.container {
+  @include media-breakpoint-up(lg) {
+    max-width: 960px;
+  }
+}
+
 .w-sm-auto {
  @include media-breakpoint-up(sm) {
    width: auto !important;

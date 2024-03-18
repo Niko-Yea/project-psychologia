@@ -3,9 +3,9 @@ import slick from './slick.min'
 
 $(document).ready(function(){
   $('.services').slick({
-    slidesToShow: 3 ,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    arrows: false,
+    // arrows: false,
     centerMode: true,
     centerPadding: 0,
     responsive: [
@@ -13,7 +13,8 @@ $(document).ready(function(){
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
-          centerPadding: '50px',
+          centerPadding: '25px',
+          infinite: false,
         }
       },
     ]
