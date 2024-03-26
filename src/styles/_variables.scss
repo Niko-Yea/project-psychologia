@@ -2,12 +2,14 @@ $primary: #8C1655;
 $secondary: #FFC7E6;
 $tertiary: #336633;
 $body-bg: #FDFEF8;
+$shadow: #1F1F1F;
 
 $custom-colors: (
         "primary":    $primary,
         "secondary":  $secondary,
         "tertiary":   $tertiary,
         "body-bg":    $body-bg,
+        "shadow":     $shadow,
 );
 
 $theme-colors: map-merge(

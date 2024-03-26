@@ -6,6 +6,7 @@
 @import "utils/slick";
 @import "utils/slick-theme";
 @import "header";
+@import "instagram";
 @import "footer";
 
 #about-me,
@@ -32,7 +33,17 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', 'Arial', 'Roboto', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lust", serif;
+  font-weight: 700;
 }
 
 img {
@@ -63,9 +74,10 @@ p {
   margin: 0
 }
 
-.container {
+.container,
+.container-md {
   @include media-breakpoint-up(lg) {
-    max-width: 960px;
+    max-width: 1150px;
   }
 }
 
