@@ -4,7 +4,7 @@
   background-image: url("../assets/header.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 22%;
+  background-position: 22% 25%;
 
   @include media-breakpoint-down(md) {
     background-image: linear-gradient(to right, rgba(201, 201, 201, 0.1), rgba(201, 201, 201, 0.1)), url(../assets/header-md.png);
