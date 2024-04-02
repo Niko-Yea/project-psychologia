@@ -8,6 +8,7 @@
 
   @include media-breakpoint-down(md) {
     background-image: linear-gradient(to right, rgba(201, 201, 201, 0.1), rgba(201, 201, 201, 0.1)), url(../assets/header-md.png);
+    padding-bottom: 5rem;
   }
 
   //& .title {
@@ -17,5 +18,9 @@
   & .contact-btn {
     margin-top: 26.135rem;
     padding: .75rem 2rem;
+
+    @include media-breakpoint-down(md) {
+      margin-top: 30.135rem;
+    }
   }
 }

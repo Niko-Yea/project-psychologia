@@ -6,6 +6,7 @@
 @import "utils/slick";
 @import "utils/slick-theme";
 @import "header";
+@import "what-i-do";
 @import "instagram";
 @import "footer";
 
@@ -41,7 +42,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.navigation {
   font-family: "Lust", serif;
   font-weight: 700;
 }

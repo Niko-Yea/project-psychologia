@@ -1,0 +1,6 @@
+.container-what-i-do {
+  @include media-breakpoint-down(lg) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
