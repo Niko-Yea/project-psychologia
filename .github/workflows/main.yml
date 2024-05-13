@@ -19,4 +19,4 @@ jobs:
         server: h30.seohost.pl
         username: srv68573
         password: ${{ secrets.PROJECTPSYCHOLOGIA }}
-        server-dir: domains/projektpsychologia.pl/public_html
+        server-dir: domains/projektpsychologia.pl/public_html/
