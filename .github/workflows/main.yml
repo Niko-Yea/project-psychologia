@@ -2,18 +2,13 @@ name: Deploy
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      
-      - name: Use Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: '14.x'
+      - uses: actions/checkout@v4
           
       - name: Installing dependencies
         run: npm i
@@ -27,4 +22,5 @@ jobs:
           server: h30.seohost.pl
           username: ${{ secrets.PROJECTPSYCHOLOGIA_USER }}
           password: ${{ secrets.PROJECTPSYCHOLOGIA }}
+          local-dir: ./dist/
           server-dir: domains/projektpsychologia.pl/public_html/
