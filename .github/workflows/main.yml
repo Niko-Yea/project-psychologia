@@ -1,15 +1,13 @@
-on: push
+on: 
+  push:
+    branches: [ gh-pages ]
+  
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout gh-pages
-      uses: actions/checkout@v2
-      with:
-        ref: 'gh-pages'
-    
     - name: 🚚 Get latest code
       uses: actions/checkout@v4
 
